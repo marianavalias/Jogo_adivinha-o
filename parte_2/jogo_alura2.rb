@@ -18,7 +18,7 @@ for tentativa in 1..limite_de_tentativas #loop
     puts "Tentativa " + tentativa.to_s + " de " + limite_de_tentativas.to_s
     puts "Entre com o numero" 
     chute = gets
-    puts "Será que acertou? Você chutou" + chute
+    puts "Será que acertou? Você chutou " + chute
     puts chute.to_i == numero_secreto #converte um numero texto para numero inteiro
 
     acertou = numero_secreto == chute.to_i #variavel que isola 
