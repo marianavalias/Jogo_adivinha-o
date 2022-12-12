@@ -7,7 +7,7 @@ def da_boas_vindas #funçao simples que não recebe argumento
 end
 
 def sorteia_numero_secreto #função tudo que criado em uma função não é acessado de "fora" dela, assim não sendo global apenas local
-  puts "Escolhendo um número secr eto entre 0 e 200..." 
+  puts "Escolhendo um número secreto entre 0 e 200..." 
   sorteado = 175 
   puts "Escolhido... que tal adivinhar hoje nosso"
   return sorteado
