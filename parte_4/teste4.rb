@@ -49,7 +49,7 @@ end
 
 
 nome = gets.strip #para retirar caracteres em braco, tanto na esquerda quanto na direita
-puts "#{nome} tem #{nome.size} caracteres" #interplolar/colocar valores em uma string 
+puts "#{nome} tem #{nome.size} caracteres" #variavel dentinterplolar/colocar valores em uma string 
 #puts nome + " tem " + nome.size.to_s + " caracteres", sendo simplificada acima sem ter que colocar o to_s
 puts "Resultado: "
 puts nome[9]
