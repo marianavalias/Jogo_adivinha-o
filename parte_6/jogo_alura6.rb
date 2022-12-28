@@ -13,7 +13,7 @@ def pede_dificuldade
 end
 
 def sorteia_numero_secreto(dificuldade)
-    case dificuldade #candicoes que quero verificar na variavel 
+    case dificuldade #condicoes que quero verificar na variavel 
     when 1
         maximo = 30
     when 2
